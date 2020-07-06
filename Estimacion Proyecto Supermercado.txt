@@ -1,0 +1,53 @@
+PUNTO FUNCIÓN
+• Estimar el esfuerzo en un proyecto informático horas hombre (HH) (SUPERMERCADO SUPER)
+• Estimar la duración de un proyecto de software (en meses)
+• Estimar el costo del proyecto informático
+Buscar (EQ)
+Actualizar (EI)
+Insertar (EI)
+Listar (EO)
+Eliminar (EI)
+Informes o reportes (EO)
+Tablas de BD (ILF)
+Tipo / Complejidad
+Baja
+Media
+Alta
+TOTAL
+(EI) Entrada externa
+3 PF
+4 * 4 PF
+6 PF
+16
+(EO) Salida externa
+3 PF
+5 PF
+4 *7 PF
+28
+(EQ) Consulta externa
+3 PF
+1 * 4 PF
+6 PF
+4
+(ILF) Archivo lógico interno
+7 PF
+4 * 10 PF
+15 PF
+40
+(EIF) Archivo de interfaz externo
+5 PF
+0 * 7 PF
+10 PF
+0
+PFSA
+88
+
+REQUERIMIENTOS FUNCIONALES SUPERMERCADO
+∙ La empresa le solicita a Ud., como proveedor de sistemas, que realice un módulo “ASIGNA” con las siguientes características: El módulo debe enlazarse a la base de datos de la empresa, mysql. (ILF 40 PF)
+∙ Obtener datos personales de los trabajadores poli funcionales así como el número de horas contratadas. Existe personal contratado a medio tiempo, tiempo completo y por horas. (EQ 4 PF)
+∙ El jefe de recursos humanos tendrá disponible todas las acciones en el módulo. Podrá registrar los turnos semanales y, distribuirlos entre el personal poli funcional. Indicará días y horas de entrada y salida, según el turno. (EI 4 PF)
+El turno se actualiza semana a semana y depende del Jefe de recursos humanos indicar cuando empieza el siguiente turno semanal, por ejemplo de martes a lunes. (EI 4 PF)
+∙ Las actividades que realizan los polifuncionales deben ser registradas en el módulo, pudiendo ser éstas: limpieza del local, colocación de nuevos productos, ordenamiento de productos existentes en las perchas, limpieza del baño, servicio al cliente, envoltura de regalos, limpieza ocasional, etc. (EI 4 PF)
+∙ El jefe quiere asignar las responsabilidades por el módulo para que el trabajador revise lo pendiente, lo ejecute y registre su avance (% y comentario), en el módulo. (EI 4 PF)
+∙ El jefe, también, necesita reportes, por periodo, por turno y/o empleado para determinar el número de horas trabajadas y reportadas. Así también, quiere controlar el cumplimiento de las actividades encomendadas. Además, quiere verificar que hayan cumplido con su número de horas por la que se le contrató al personal poli funcional. (EO7 28 PF)
+Puntos de función sin ajustar (PFSA)= 88
