@@ -51,3 +51,25 @@ El turno se actualiza semana a semana y depende del Jefe de recursos humanos ind
 ∙ El jefe quiere asignar las responsabilidades por el módulo para que el trabajador revise lo pendiente, lo ejecute y registre su avance (% y comentario), en el módulo. (EI 4 PF)
 ∙ El jefe, también, necesita reportes, por periodo, por turno y/o empleado para determinar el número de horas trabajadas y reportadas. Así también, quiere controlar el cumplimiento de las actividades encomendadas. Además, quiere verificar que hayan cumplido con su número de horas por la que se le contrató al personal poli funcional. (EO7 28 PF)
 Puntos de función sin ajustar (PFSA)= 88
+PFA = PFSA * [0.65 + (0.01 * factor de ajuste)]
+DONDE
+ PFSA: Puntos de función sin ajustar
+ PFA: Puntos de función ajustado
+PFA = 88 * [0.65 + (0.01 * 32)]
+PFA = 88 * [0.65 + 0.32]
+PFA = 88 * 0.97
+PFA = 85.36  85
+
+EJEMPLO CON 1 DESARROLLADOR
+H/H = PFA * Horas PF promedio
+H/H = 85 * 8
+H/H = 680 Horas hombre
+Ejemplo:
+7 horas diarias de trabajo
+1 mes = 20 días
+680 / 7 = 97.1 días de trabajo
+97.1 / 20 = 4.86 meses para desarrollar el software de lunes a viernes 7 horas diarias con 1 desarrollador (ESTIMACIÓN DE DURACIÓN DEL PROYECTO).
+Sueldo mensual desarrolladores: $500
+Otros costos del proyecto: $300
+COSTO = (Desarrolladores * Duración meses * sueldos) + Otros costos
+COSTOS = (1 * 4.86 * 500) + 300 = $2730
